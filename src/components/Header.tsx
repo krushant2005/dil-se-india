@@ -71,19 +71,19 @@ export const Header = ({ currentLanguage, onLanguageChange }: HeaderProps) => {
             <a href="#home" className="text-foreground hover:text-primary transition-colors">
               {t.nav.home}
             </a>
-            <a href="#galleries" className="text-foreground hover:text-primary transition-colors">
+            <a href="/galleries" className="text-foreground hover:text-primary transition-colors">
               {t.nav.galleries}
             </a>
-            <a href="#experiences" className="text-foreground hover:text-primary transition-colors">
+            <a href="/experiences" className="text-foreground hover:text-primary transition-colors">
               {t.nav.experiences}
             </a>
-            <a href="#stories" className="text-foreground hover:text-primary transition-colors">
+            <a href="/stories" className="text-foreground hover:text-primary transition-colors">
               {t.nav.stories}
             </a>
-            <a href="#culture" className="text-foreground hover:text-primary transition-colors">
+            <a href="/culture-map" className="text-foreground hover:text-primary transition-colors">
               {t.nav.culture}
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
+            <a href="/about" className="text-foreground hover:text-primary transition-colors">
               {t.nav.about}
             </a>
           </nav>
