@@ -2,41 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Dil Se India Design System - Rich Indian Heritage Colors & Aesthetics */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Indian Heritage Color Palette */
+    --background: 35 25% 97%;
+    --foreground: 20 15% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 35 25% 97%;
+    --card-foreground: 20 15% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 35 25% 97%;
+    --popover-foreground: 20 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Saffron Orange - Sacred and Royal */
+    --primary: 25 90% 55%;
+    --primary-foreground: 35 25% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm Marigold */
+    --secondary: 45 95% 75%;
+    --secondary-foreground: 20 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Soft Cream */
+    --muted: 35 35% 92%;
+    --muted-foreground: 20 25% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Deep Indigo - Traditional */
+    --accent: 235 85% 25%;
+    --accent-foreground: 35 25% 97%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 35 25% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 20% 85%;
+    --input: 35 20% 85%;
+    --ring: 25 90% 55%;
 
     --radius: 0.5rem;
+
+    /* Cultural Design Elements */
+    --cultural-gold: 45 100% 65%;
+    --cultural-crimson: 0 75% 45%;
+    --cultural-emerald: 140 60% 35%;
+    --cultural-royal: 250 85% 35%;
+    
+    /* Beautiful Indian Gradients */
+    --gradient-sunrise: linear-gradient(135deg, hsl(25 90% 55%), hsl(45 95% 75%));
+    --gradient-sunset: linear-gradient(135deg, hsl(0 75% 45%), hsl(25 90% 55%));
+    --gradient-heritage: linear-gradient(135deg, hsl(235 85% 25%), hsl(25 90% 55%));
+    --gradient-marigold: linear-gradient(135deg, hsl(45 95% 75%), hsl(45 100% 65%));
+    
+    /* Elegant Shadows */
+    --shadow-cultural: 0 10px 40px -10px hsl(25 90% 55% / 0.3);
+    --shadow-warm: 0 8px 30px -8px hsl(45 95% 75% / 0.4);
+    --shadow-heritage: 0 12px 50px -12px hsl(235 85% 25% / 0.2);
 
     --sidebar-background: 0 0% 98%;
 

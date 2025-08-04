@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Cultural Indian Colors
+				cultural: {
+					gold: 'hsl(var(--cultural-gold))',
+					crimson: 'hsl(var(--cultural-crimson))',
+					emerald: 'hsl(var(--cultural-emerald))',
+					royal: 'hsl(var(--cultural-royal))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
